@@ -25,8 +25,8 @@ const birthYear = 1994
 //get user input
 let response = prompt("What is your name?")
 
-//alert a message to the user
+
 //template strings have to have the back tick string to even be used ``
 //template string uses the $ at every usage, unlike C# where you only need it once
 
-alert(`Hello ${response}!`)
+document.getElementById("heading").innerHTML = `${response}'s Homepage`
